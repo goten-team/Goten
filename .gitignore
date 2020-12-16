@@ -66,3 +66,4 @@ GPUSlalom/
 log/
 SGXDNN/bin_sgx/
 *.log
+slalom_app

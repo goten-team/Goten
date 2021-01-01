@@ -5,18 +5,11 @@ A framework leveraging GPU and Intel SGX to protect privacy of training data, mo
 
 The details of this project are presented in the following paper:
 
-Goten: GPU-Outsourcing Trusted Execution of Neural Network Training
+[Goten: GPU-Outsourcing Trusted Execution of Neural Network Training](https://lucieno.github.io/files/goten.pdf)
+
 Lucien K. L. Ng, Sherman S. M. Chow, Anna P. Y. Woo, Donald P. H. Wong, Yongjun Zhao
-To appear in AAAI-21
-[https://lucieno.github.io/files/goten.pdf](https://lucieno.github.io/files/goten.pdf)
 
-## Disclaimer
-DO NOT USE THIS SOFTWARE TO SECURE ANY REAL-WORLD DATA OR COMPUTATION!
-
-This software is a proof-of-concept meant for performance testing of the Goten framework ONLY. It is full of security vulnerabilities that facilitate testing, debugging and performance measurements. In any real-world deployment, these vulnerabilities can be easily exploited to leak all user inputs.
-
-Some parts that have a negligble impact on performance but that are required for a real-world deployment are not currently implemented (e.g., setting up a secure communication channel with a remote client and producing verifiable attestations).
-
+**To appear in AAAI-21**
 
 ## How to Install
 
@@ -60,6 +53,13 @@ Some parts that have a negligble impact on performance but that are required for
 ## CaffeSCONE
 
 The guide of building and running CaffeSCONE is store in the folder named [CaffeSCONE](CaffeSCONE).
+
+## Disclaimer
+DO NOT USE THIS SOFTWARE TO SECURE ANY REAL-WORLD DATA OR COMPUTATION!
+
+This software is a proof-of-concept meant for performance testing of the Goten framework ONLY. It is full of security vulnerabilities that facilitate testing, debugging and performance measurements. In any real-world deployment, these vulnerabilities can be easily exploited to leak all user inputs.
+
+Some parts that have a negligble impact on performance but that are required for a real-world deployment are not currently implemented (e.g., setting up a secure communication channel with a remote client and producing verifiable attestations).
 
 ## Acknowledgement
 we reuse some code of Slalom (Tramer & Boneh, 2019), 

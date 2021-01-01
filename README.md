@@ -1,7 +1,14 @@
 # Goten
-**Goten: GPU-Outsourcing Trusted Execution of Neural Network Training and Prediction**
+**GPU-Outsourcing Trusted Execution of Neural Network Training**
 
 A framework leveraging GPU and Intel SGX to protect privacy of training data, model, and queries while achieving high-performance training and prediction
+
+The details of this project are presented in the following paper:
+
+Goten: GPU-Outsourcing Trusted Execution of Neural Network Training
+Lucien K. L. Ng, Sherman S. M. Chow, Anna P. Y. Woo, Donald P. H. Wong, Yongjun Zhao
+To appear in AAAI-21
+[https://lucieno.github.io/files/goten.pdf](https://lucieno.github.io/files/goten.pdf)
 
 ## Disclaimer
 DO NOT USE THIS SOFTWARE TO SECURE ANY REAL-WORLD DATA OR COMPUTATION!
@@ -55,7 +62,7 @@ Some parts that have a negligble impact on performance but that are required for
 The guide of building and running CaffeSCONE is store in the folder named [CaffeSCONE](CaffeSCONE).
 
 ## Acknowledgement
-we reuse some code of Slalom (Tram`er & Boneh, 2019), 
+we reuse some code of Slalom (Tramer & Boneh, 2019), 
 including their code of crypgtographicially-secure random number generation and encryption/decryption, 
 and their OS-call-free version of Eigen, 
 a linear algebra library.

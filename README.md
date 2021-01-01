@@ -5,11 +5,9 @@ A framework leveraging GPU and Intel SGX to protect privacy of training data, mo
 
 The details of this project are presented in the following paper:
 
-[Goten: GPU-Outsourcing Trusted Execution of Neural Network Training](https://lucieno.github.io/files/goten.pdf)
-
-Lucien K. L. Ng, Sherman S. M. Chow, Anna P. Y. Woo, Donald P. H. Wong, Yongjun Zhao
-
-**To appear in AAAI-21**
+[*Goten: GPU-Outsourcing Trusted Execution of Neural Network Training*](https://lucieno.github.io/files/goten.pdf) </br>
+**Lucien K. L. Ng, Sherman S. M. Chow, Anna P. Y. Woo, Donald P. H. Wong, Yongjun Zhao** </br>
+To appear in AAAI-21
 
 ## How to Install
 
